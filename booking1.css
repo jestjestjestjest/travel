@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  padding: 0 15px;
+  min-height: 100vh;
+  justify-content: center;
+  background: #f0f2f5;
+}
+#form{
+    background-color: rgb(12, 11, 11);
+    border-radius: 5px;
+}
+.label{
+    color: #f0f2f5;
+    margin-left: 50px;
+}
+.label1{
+    color: #f0f2f5;
+}
+#book{
+
+    margin-left :150px;
+    margin-bottom: 50px;
+}
+
+.submitbutton{
+    
+        font-size:medium;
+        font-weight:bold;
+
+        background-color: rgb(9, 198, 245); /* Set the default background color */
+        color: #070606; /* Set the default text color */
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease; /* Add a smooth transition for the background color */
+        margin-left: 160px;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+    .submitbutton:hover {
+        background-color: #03f723; /* Change the background color of button on hover */
+    }
+.input{
+    margin-left: 100px;
+}
+.input1{
+    margin-left: 90px;
+}
+.input2{
+    margin-left: 38px;
+}
+.input3{
+    margin-left: 50px;
+}
+#input4{
+    margin-left: 50px;
+}

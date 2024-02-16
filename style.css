@@ -1,0 +1,280 @@
+*{
+    margin:0px;
+    padding:0px;
+ overflow-x:hidden ;
+     
+    }
+
+
+
+#logo{
+    width: 150px;
+}
+
+#navbar{
+    background-image: url("./images/home2.jpg");
+    height: 600px;
+    background-size: cover;
+    
+   justify-content: space-between;
+ align-items: center;
+   width:100%; 
+  
+   
+}
+
+.listitem{
+    display: inline-block;/* using in child tag */
+    list-style: none; /* to hide circle from list items  */
+    margin: 50px 50px;
+}
+.links{
+    text-decoration: none;
+    color: rgb(255, 251, 251);
+    font-weight:lighter;
+    font-size: xx-large;
+}
+
+.links:hover{
+    color: rgb(12, 13, 14);
+}
+
+/* home */
+.title{
+    display: flex;
+
+}
+
+
+
+
+    #WE{
+        color: rgb(9, 198, 245);
+
+    }
+    #home{
+        margin-top: 25px;
+      
+    }
+    .image1{
+       margin-left: 1px;
+      /*   margin-top: 45px; */
+       width: 1400px;
+    }
+    
+    /* menu */
+    #navbar2{
+        display: flex;
+        justify-content: space-between;/* starting contents from two ends horizontaly*/
+        align-items: center;/*  verticaly  */
+        width:85%;
+        margin-left: 340px;
+        margin-top: 100px;
+    }
+    .listitem2{
+        display: inline-block;/* using in child tag */
+        list-style: none; /* to hide circle from list items  */
+        margin: 10px 20px;
+    }
+    .links2{
+        text-decoration: none;
+        color: rgb(255, 254, 254);
+        font-weight:lighter;
+        font-size: x-large;
+    }
+    
+    .links2:hover{
+        color:rgb(9, 198, 245);
+    }
+
+    .image2{
+       
+       margin-top: 45px;
+       width: 280px;
+       margin-left: 40px;
+       height: 250px;
+       transition: width 60ms, height 60ms;
+       border-radius: 5px;
+    }
+.dest1{
+    margin-top: 150px;
+    margin-left: 500px;
+    color: rgb(246, 247, 248);
+   font-size: 50px;
+}
+.image3{
+    margin-left:30px;
+    width: 1290px;
+    height: 240px;
+
+}
+.row{
+    margin-left: 20px;
+    display: flex;
+}
+.destlink{
+  
+
+text-decoration: none;
+color: rgb(255, 254, 254);
+font-weight:lighter;
+font-size: x-large;
+display: flex;
+margin-left: 50px;
+}
+.titleh2{
+    font-size: 60px;
+    margin-left:50px;
+margin-right: 50px;
+margin-top: 70px;
+color: rgb(255, 254, 254);
+
+}
+.rate{
+  
+
+   
+    color: rgb(252, 249, 249);
+    font-weight:lighter;
+    font-size:medium;
+    display: flex;
+    margin-left: 50px;
+    }
+
+
+   
+    .hover-button {
+        font-size:medium;
+        font-weight:bold;
+
+        background-color: rgb(9, 198, 245); /* Set the default background color */
+        color: #070606; /* Set the default text color */
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease; /* Add a smooth transition for the background color */
+        margin-left: 60px;
+        margin-top: 50px;
+        margin-bottom: 10px;
+     
+    }
+    .hover-button:hover {
+        background-color: #03f723; /* Change the background color of button on hover */
+    }
+
+    .image4{
+        margin-left: 60px;
+        margin-top: 50px;
+        width: 1600px;
+        height: 500px;
+    }
+
+    .titleh2{
+        font-size: 100px;
+        margin-left:80px;
+    margin-right: 50px;
+    margin-top: 70px;
+    
+    }
+    /* footer */
+    #footerp{
+        text-align: center;
+       /*  margin-top: 40px; */
+        font-weight: lighter;
+    background-color: blanchedalmond;
+    
+    }
+    
+        
+    
+html{
+        scroll-behavior: smooth;
+    
+    } 
+    .footerlink{
+        text-decoration: none;
+color: black;
+font-weight:lighter;
+    font-size:medium;
+display: flex;
+margin-left: 50px;
+margin-top: 10px;
+    }
+    .footerlink:hover {
+     color: #06d2f7; /* Change the background color of button on hover */
+     
+    }
+#footerlogo{
+        margin-top: 200px;
+        width: 120px;
+    
+    }
+    .iconset{
+        display: flex;
+        justify-content: center;/* this three use for align in center */
+        align-items:center ;
+        margin-top: 3rem;
+      margin-left: 50px;
+     }
+     .icon i {
+        color: black;
+        font-size: 25px;
+    margin-left: 100px;}
+    
+    .icon:hover i{/* give animation */
+        color: rgb(9, 198, 245);
+        animation:shake 1s;
+        font-size:35px;
+    }
+    /*key frames for give animation*/
+    
+    @keyframes shake{
+        10%{transform: rotate(15deg);}
+        20%{transform: rotate(-15deg);}
+        30%{transform: rotate(15deg);}
+        40%{transform: rotate(-15deg);}
+    }
+    #contact{
+        margin-top: 50px;
+    }
+
+    .para{
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+color: rgb(246, 247, 248);
+    }
+    #lasth{
+        margin-top: 40px;
+        margin-left: 50px;
+        color: rgb(246, 247, 248);
+    }
+    
+    .destlink:hover{
+        color:rgb(9, 198, 245);
+        font-size:xx-large;
+    }
+
+
+
+
+
+
+
+
+
+
+#Discover{
+    background-color: #0c0c0c;
+}
+#destinations{
+    background-color: #0c0c0c;   
+}
+#Trips{
+    background-color: #0c0c0c;   
+ 
+}
+#actvities{
+    background-color: #0c0c0c;   
+}
